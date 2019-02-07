@@ -1,0 +1,10 @@
+# ignore directories
+__pycache__/
+
+# ignore compiled python shit
+*.py[cod]
+
+
+.vs
+.vscode
+
