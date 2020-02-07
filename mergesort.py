@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 #
-# mergesort.py - implementation of the mergesort algorithm
-
+"""Implementation of the mergesort algorithm"""
 
 def mergesort(seq):
     """ Implementation of the mergesort algorithm.
 
-        Sourced from Hetland, M. L. (2014). 'Python Algorithms'. pp. 125-126     
+        Sourced from Hetland, M. L. (2014). 'Python Algorithms'. pp. 125-126
     """
     mid = len(seq) // 2
     lft, rgt = seq[:mid], seq[mid:]
@@ -31,4 +30,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
